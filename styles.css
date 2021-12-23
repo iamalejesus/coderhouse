@@ -31,6 +31,7 @@ p {
     font-size: 1.1rem; 
     padding: 0.5rem;
     transition: all 0.2s linear;  
+    border-radius: 2rem;
 }
 .button ul li a:hover {
     background-color: rgb(240, 240, 240);
@@ -52,6 +53,7 @@ p {
 /*----------HEADER----------*/
 
 
+
 .header {
     background-color: black;
 }
@@ -65,6 +67,7 @@ p {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     list-style: none;
     align-items: center;
@@ -80,6 +83,7 @@ p {
     padding: 1rem;
     padding-inline: 2rem;
     transition: all 0.2s linear;
+    border-radius: 1rem;
 }
 .nav ul li a:hover {
     background-color: rgb(49, 49, 49);
@@ -97,7 +101,6 @@ p {
 
 .top__img img {
     width: 100%;
-    
 }
 
 
@@ -106,18 +109,19 @@ p {
 
 .product__descrptn--container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.product_descrptn--img img{
+    width: 35rem;
+    padding: 2rem;
 }
 .product__descrptn {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding: 2rem;
 }
-.product_descrptn--img {
-    padding-left: 5rem;
-    padding-right: 5rem;
+.product__descrptn p {
+    padding: 2rem;
 }
-
 
 /*----------SERVICES SECTION----------*/
 
@@ -125,6 +129,7 @@ p {
 .services__descrptn {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 2rem;
 }
 .service--container {
@@ -137,6 +142,7 @@ p {
     margin-right: 5rem;
     background-color: rgb(240, 240, 240);
     border-radius: 30px; 
+    margin: 2rem;
 }
 .service--container p {
     padding-bottom: 2rem;
@@ -170,6 +176,7 @@ p {
 .who__work__whith--container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     padding: 3rem;
     background-color: rgb(66, 66, 66);
@@ -182,12 +189,7 @@ p {
 /*----------WHO WE ARE SECTION----------*/
 
 
-.who__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 10rem;
-}
+
 .who__descrptn {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -196,12 +198,9 @@ p {
     text-align: justify;
     text-justify: inter-word
 }
-.product_descrptn--img {
-    padding-left: 5rem;
-    padding-right: 5rem;
+.who__img img {
+    width: 50%;
 }
-
-
 /*----------CONTACT----------*/
 
 
