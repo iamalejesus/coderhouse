@@ -70,7 +70,6 @@ p {
     flex-wrap: wrap;
     align-items: center;
     list-style: none;
-    align-items: center;
 }
 .header__logo li a {
     padding-top: 2rem;
@@ -106,15 +105,19 @@ p {
 
 /*----------PRODUCT SECTION----------*/
 
-
 .product__descrptn--container {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: center
+}
+.product_descrptn--img {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
 }
 .product_descrptn--img img{
-    width: 35rem;
-    padding: 2rem;
+    max-width:40%;
+    min-width: 80%
 }
 .product__descrptn {
     padding: 2rem;
@@ -130,6 +133,7 @@ p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-content: center;
     padding: 2rem;
 }
 .service--container {
@@ -167,6 +171,7 @@ p {
 .services__container {
     display: flex; 
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 2rem;
 }
 
@@ -198,15 +203,21 @@ p {
     text-align: justify;
     text-justify: inter-word
 }
+.who__img {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
 .who__img img {
-    width: 50%;
+    max-width: 40%;
+    min-width: 80%
 }
 /*----------CONTACT----------*/
 
 
 .contact {
     display: flex;
-    justify-content: stretch;
+    flex-wrap: wrap;
 }
 .contact__info--container img {
     width: 3rem;
@@ -215,6 +226,7 @@ p {
 .contact__container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .contact__names {
     padding: 2rem;
@@ -233,17 +245,13 @@ h4 {
 
 
 .form {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    padding-left: 30rem;
-    padding-right: 30rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    width: 2rem;
+    text-align: center;
 }
-
 .signin__container {
     background-color: black;
     border-radius: 30px;
+    
 }
 .signin__items {
     color: white;
@@ -254,9 +262,8 @@ h4 {
 }
 .signin__items--container {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     flex-direction: column;
-    align-items: left;
 }
 .signin__items--container div {
     padding: 1rem;
