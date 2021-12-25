@@ -105,6 +105,7 @@ p {
 
 /*----------PRODUCT SECTION----------*/
 
+
 .product__descrptn--container {
     display: flex;
     flex-wrap: wrap;
@@ -218,16 +219,22 @@ p {
 .contact {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .contact__info--container img {
     width: 3rem;
     height: 3rem;
 }
 .contact__container {
+    display: grid;
+    grid-template-rows: 100px 150px 200px;
+    grid-template-columns: 500px;
+}
+/*.contact__container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+}*/
 .contact__names {
     padding: 2rem;
     text-align: center;
@@ -237,21 +244,20 @@ p {
     text-align: center;
 }
 h4 {
-    margin: 2rem;
+    padding: rem;
 }
 
 
 /*----------ACCOUNT----------*/
 
 
-.form {
-    width: 2rem;
+form {
+    padding: 10rem;
     text-align: center;
 }
 .signin__container {
     background-color: black;
     border-radius: 30px;
-    
 }
 .signin__items {
     color: white;
@@ -285,6 +291,7 @@ h4 {
 .footer {
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
