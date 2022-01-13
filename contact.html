@@ -7,6 +7,7 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" href="./img/WPSoft Favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header class="header">
@@ -28,10 +29,10 @@
         </div>
     </header>
     <main>
-        <section class="top__img">
-            <img src="./img/Image.jpg" alt="">
+        <section class="top__img wow animate__animated animate__pulse">
+            <img src="./img/top_image_contact.jpg" alt="">
         </section>
-        <section>
+        <section class="wow animate__animated animate__fadeInUp">
             <div>
                 <h1>Contáctenos</h1>
             </div>
@@ -79,5 +80,10 @@
                 </div>
         </footer>
     </main>
+
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>

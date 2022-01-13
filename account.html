@@ -7,6 +7,7 @@
     <title>Cuenta</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" href="./img/WPSoft Favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header class="header">
@@ -28,7 +29,7 @@
         </div>
     </header>
     <main>
-        <form class="form">
+        <form class="form wow animate__animated animate__fadeIn">
             <fieldset class="signin__container">
                 <div class="signin__items--container">
                     <div class="signin__items" >
@@ -76,5 +77,10 @@
             </ul>
         </div>
     </footer>
+
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
