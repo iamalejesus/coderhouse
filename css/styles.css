@@ -39,6 +39,7 @@ p {
 .submit__button {
     text-align: center;
     font-size: 1.5rem;
+    padding: 5rem;
 }
 .submit__button form {
     padding: 5rem;
@@ -68,7 +69,6 @@ p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
     list-style: none;
 }
 .header__logo li a {
@@ -283,7 +283,15 @@ form {
     margin: 2rem;
     font-size: 1.2rem;
 }
-
+.row {
+    padding: 5rem;
+    margin: 5rem;
+    background-color: black;
+    color: white;
+}
+.col-12 {
+    padding: 2rem;
+}
 
 /*----------FOOTER----------*/
 
