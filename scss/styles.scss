@@ -8,91 +8,93 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.5rem;
+    h1 {
+        padding: 5rem;
+        text-align: center;
+    }
+    p {
+        padding: 2rem;
+        text-align: justify;
+        justify-content: inter-word;
+    }
+    .button {
+        text-align: center;
+        padding: 2rem;
+        ul li {
+            list-style: none;
+        }
+        a {
+            color: black;
+            text-decoration-line: none; 
+            font-size: 1.1rem; 
+            padding: 0.5rem;
+            transition: all 0.2s linear;  
+            border-radius: 2rem;
+        }
+        :hover {
+            background-color: rgb(240, 240, 240);
+        }
+    }
+    .submit__button {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 5rem;
+        form {
+            padding: 5rem;
+        }
+        input {
+            font-size: 1.2rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+    }
 }
-h1 {
-    padding: 5rem;
-    text-align: center;
-}
-p {
-    padding: 2rem;
-    text-align: justify;
-    justify-content: inter-word;
-}
-.button {
-    text-align: center;
-    padding: 2rem;
-}
-.button ul li {
-    list-style: none;
-}
-.button ul li a {
-    color: black;
-    text-decoration-line: none; 
-    font-size: 1.1rem; 
-    padding: 0.5rem;
-    transition: all 0.2s linear;  
-    border-radius: 2rem;
-}
-.button ul li a:hover {
-    background-color: rgb(240, 240, 240);
-}
-.submit__button {
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 5rem;
-}
-.submit__button form {
-    padding: 5rem;
-}
-.submit__button form input {
-    font-size: 1.2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
+
+
 /*----------HEADER----------*/
 
 
 
 .header {
     background-color: black;
+    .nav ul li a img {
+        width: 8rem;
+        position: relative;
+        top: 2px;
+    }
+    .nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        list-style: none;
+        li a:hover {
+            background-color: rgb(49, 49, 49);
+        }
+    }
+    .header__logo li a {
+        padding-top: 2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .header__nav--items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li a{
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+            padding-inline: 2rem;
+            transition: all 0.2s linear;
+            border-radius: 1rem;
+        } 
+    }
 }
-.nav ul li a img {
-    width: 8rem;
-    position: relative;
-    top: 2px;
-}
-.nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    list-style: none;
-}
-.header__logo li a {
-    padding-top: 2rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-}
-.header__nav--items li a{
-    color: white;
-    text-decoration: none;
-    padding: 1rem;
-    padding-inline: 2rem;
-    transition: all 0.2s linear;
-    border-radius: 1rem;
-}
-.nav ul li a:hover {
-    background-color: rgb(49, 49, 49);
 
-}
-.header__nav--items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 
 /*----------MAIN IMAGE----------*/
@@ -115,16 +117,16 @@ p {
     padding: 2rem;
     display: flex;
     justify-content: space-around;
-}
-.product_descrptn--img img{
-    max-width:40%;
-    min-width: 80%
+    img{
+        max-width:40%;
+        min-width: 50%
+    }
 }
 .product__descrptn {
     padding: 2rem;
-}
-.product__descrptn p {
-    padding: 2rem;
+    p {
+        padding: 2rem;
+    }
 }
 
 /*----------SERVICES SECTION----------*/
@@ -143,31 +145,28 @@ p {
     padding-right: 1rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
     background-color: rgb(240, 240, 240);
     border-radius: 30px; 
     margin: 2rem;
-}
-.service--container p {
-    padding-bottom: 2rem;
-}
-.service--container img {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 2%;
-}
+    p {
+        padding-bottom: 2rem;
+    }
+    img {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 2%;
+    }
+}  
 .services__descrptn--container {
     text-align: center;
-}
-
-.services__descrptn--container p {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    p {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
 }
 .services__container {
     display: flex; 
@@ -186,9 +185,9 @@ p {
     align-items: center;
     padding: 3rem;
     background-color: rgb(66, 66, 66);
-}
-.who__work__whith--container img {
-    width: 15rem;
+    img {
+        width: 15rem;
+    }
 }
 
 
@@ -199,19 +198,19 @@ p {
 .who__descrptn {
     padding-left: 5rem;
     padding-right: 5rem;
-}
-.who__descrptn p {
-    text-align: justify;
-    text-justify: inter-word
+    p {
+        text-align: justify;
+        text-justify: inter-word
+    }
 }
 .who__img {
     padding: 2rem;
     display: flex;
     justify-content: space-around;
-}
-.who__img img {
-    max-width: 40%;
-    min-width: 80%
+    img {
+        max-width: 40%;
+        min-width: 50%
+    }
 }
 /*----------CONTACT----------*/
 
@@ -221,9 +220,13 @@ p {
     flex-wrap: wrap;
     justify-content: center;
 }
-.contact__info--container img {
-    width: 3rem;
-    height: 3rem;
+.contact__info--container {
+    padding: 1.5rem;
+    text-align: center;
+    img {
+        width: 3rem;
+        height: 3rem;
+    }
 }
 .contact__container {
     display: grid;
@@ -239,10 +242,6 @@ p {
     padding: 2rem;
     text-align: center;
 }
-.contact__info--container {
-    padding: 1.5rem;
-    text-align: center;
-}
 h4 {
     padding: rem;
 }
@@ -254,34 +253,6 @@ h4 {
 form {
     padding: 10rem;
     text-align: center;
-}
-.signin__container {
-    background-color: black;
-    border-radius: 30px;
-}
-.signin__items {
-    color: white;
-    font-size: 1.5rem;
-}
-.signin__items h3 {
-    text-align: center;
-}
-.signin__items--container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-.signin__items--container div {
-    padding: 1rem;
-    margin: 1rem;
-}
-.submit__button input {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    margin: 2rem;
-    font-size: 1.2rem;
 }
 .row {
     padding: 5rem;
@@ -311,21 +282,21 @@ form {
 .footer__contact {
     padding: 1rem;
     padding-right: 2.5rem;
-}
-.footer__contact ul h3 {
-    color: white;
-    font-size: 1.2rem;
-}
-.footer__contact ul li {
-    list-style: none;
-    padding-top: 0.8rem;    
-}
-.footer__contact ul li a{
-    color: white;
-    text-decoration: none;
-}
-.footer__contact ul li a:hover {
-    text-decoration: underline;
+    ul h3 {
+        color: white;
+        font-size: 1.2rem;
+    }
+    ul li {
+        list-style: none;
+        padding-top: 0.8rem;    
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 }
 .footer__contact--items {
     padding-right: 1.5rem;
