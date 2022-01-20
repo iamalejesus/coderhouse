@@ -16,20 +16,22 @@ body {
         padding: 2rem;
         text-align: justify;
         justify-content: inter-word;
+        width: 60%;
+        margin: auto;
     }
     .button {
         text-align: center;
         padding: 2rem;
-        ul li {
-            list-style: none;
+        li {
+            list-style: none;       
         }
         a {
             color: black;
             text-decoration-line: none; 
             font-size: 1.1rem; 
             padding: 0.5rem;
-            transition: all 0.2s linear;  
-            border-radius: 2rem;
+            transition: 0.2s;  
+            border-radius: 1rem;
         }
         :hover {
             background-color: rgb(240, 240, 240);
@@ -58,40 +60,15 @@ body {
 
 
 .header {
-    background-color: black;
-    .nav ul li a img {
-        width: 8rem;
-        position: relative;
-        top: 2px;
+    li {
+        padding-left: 1.5rem;
     }
-    .nav ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        list-style: none;
-        li a:hover {
-            background-color: rgb(49, 49, 49);
-        }
+    a {
+        border-radius: 1rem;
     }
-    .header__logo li a {
-        padding-top: 2rem;
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
-    .header__nav--items {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        li a{
-            color: white;
-            text-decoration: none;
-            padding: 1rem;
-            padding-inline: 2rem;
-            transition: all 0.2s linear;
-            border-radius: 1rem;
-        } 
+    a:hover {
+        background-color: rgb(55, 55, 55);
+        transition: 0.5s;
     }
 }
 
@@ -119,14 +96,18 @@ body {
     justify-content: space-around;
     img{
         max-width:40%;
-        min-width: 50%
+        min-width: 50%;
+        border-radius: 1rem;
+    }
+    :hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+        z-index: 2;
     }
 }
 .product__descrptn {
     padding: 2rem;
-    p {
-        padding: 2rem;
-    }
+    
 }
 
 /*----------SERVICES SECTION----------*/
@@ -134,7 +115,7 @@ body {
 
 .services__descrptn {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: center;
     padding: 2rem;
@@ -146,27 +127,19 @@ body {
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: rgb(240, 240, 240);
-    border-radius: 30px; 
+    border-radius: 1rem; 
     margin: 2rem;
+    width: 50%;
     p {
         padding-bottom: 2rem;
     }
     img {
-        width: 15rem;
-        height: 15rem;
+        width: 25%;
         border-radius: 2%;
     }
 }  
 .services__descrptn--container {
     text-align: center;
-    p {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        margin-left: 5rem;
-        margin-right: 5rem;
-    }
 }
 .services__container {
     display: flex; 
@@ -174,6 +147,7 @@ body {
     flex-wrap: wrap;
     padding: 2rem;
 }
+
 
 /*----------WHO WE WORK WITH SECTION----------*/
 
@@ -187,6 +161,11 @@ body {
     background-color: rgb(66, 66, 66);
     img {
         width: 15rem;
+    }
+    :hover {
+        transition: 0.5s;
+        transform: scale(1.3);
+        z-index: 2;
     }
 }
 
@@ -209,7 +188,13 @@ body {
     justify-content: space-around;
     img {
         max-width: 40%;
-        min-width: 50%
+        min-width: 50%;
+        border-radius: 1rem;
+    }
+    :hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+        z-index: 2;
     }
 }
 /*----------CONTACT----------*/
@@ -273,7 +258,8 @@ form {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem;
+    padding: 2rem;
+    margin-top: 5rem;
 }
 .footer__logo {
     padding: 1rem;
