@@ -113,7 +113,7 @@ body .submit__button input {
 
 .product__descrptn {
   padding: 2rem;
-  width: 60%;
+  width: 85%;
 }
 
 /*----------SERVICES SECTION----------*/
@@ -129,6 +129,7 @@ body .submit__button input {
   -ms-flex-line-pack: center;
       align-content: center;
   padding: 2rem;
+  margin: auto;
 }
 
 .service--container {
@@ -154,6 +155,12 @@ body .submit__button input {
 
 .services__descrptn--container {
   text-align: center;
+}
+
+.services__descrptn--container .services-text {
+  margin: auto;
+  padding: 2rem;
+  width: 85%;
 }
 
 .services__container {
@@ -208,7 +215,7 @@ body .submit__button input {
 /*----------WHO WE ARE SECTION----------*/
 .who__descrptn {
   padding: 2rem;
-  width: 60%;
+  width: 85%;
   margin: auto;
 }
 

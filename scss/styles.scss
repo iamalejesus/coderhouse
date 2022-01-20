@@ -100,7 +100,7 @@ body {
 }
 .product__descrptn {
     padding: 2rem;
-    width: 60%;  
+    width: 85%;  
 }
 
 /*----------SERVICES SECTION----------*/
@@ -112,6 +112,7 @@ body {
     flex-wrap: wrap;
     align-content: center;
     padding: 2rem;
+    margin: auto
 }
 .service--container {
     text-align: center;
@@ -133,6 +134,11 @@ body {
 }  
 .services__descrptn--container {
     text-align: center;
+    .services-text {
+        margin: auto;
+        padding: 2rem;
+        width: 85%;
+    }
 }
 .services__container {
     display: flex; 
@@ -175,7 +181,7 @@ body {
 
 .who__descrptn {
     padding: 2rem;
-    width: 60%;  
+    width: 85%;  
     margin: auto;
     p {
         text-align: justify;
