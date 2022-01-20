@@ -12,13 +12,6 @@ body {
         padding: 5rem;
         text-align: center;
     }
-    p {
-        padding: 2rem;
-        text-align: justify;
-        justify-content: inter-word;
-        width: 60%;
-        margin: auto;
-    }
     .button {
         text-align: center;
         padding: 2rem;
@@ -107,7 +100,7 @@ body {
 }
 .product__descrptn {
     padding: 2rem;
-    
+    width: 60%;  
 }
 
 /*----------SERVICES SECTION----------*/
@@ -147,7 +140,13 @@ body {
     flex-wrap: wrap;
     padding: 2rem;
 }
-
+.card {
+    margin: 2rem;
+}
+.card-img-top {
+    padding: 2rem;
+    border-radius: 2rem;
+}
 
 /*----------WHO WE WORK WITH SECTION----------*/
 
@@ -175,8 +174,9 @@ body {
 
 
 .who__descrptn {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding: 2rem;
+    width: 60%;  
+    margin: auto;
     p {
         text-align: justify;
         text-justify: inter-word

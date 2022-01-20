@@ -14,16 +14,6 @@ body h1 {
   text-align: center;
 }
 
-body p {
-  padding: 2rem;
-  text-align: justify;
-  -webkit-box-pack: inter-word;
-      -ms-flex-pack: inter-word;
-          justify-content: inter-word;
-  width: 60%;
-  margin: auto;
-}
-
 body .button {
   text-align: center;
   padding: 2rem;
@@ -123,6 +113,7 @@ body .submit__button input {
 
 .product__descrptn {
   padding: 2rem;
+  width: 60%;
 }
 
 /*----------SERVICES SECTION----------*/
@@ -176,6 +167,15 @@ body .submit__button input {
   padding: 2rem;
 }
 
+.card {
+  margin: 2rem;
+}
+
+.card-img-top {
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
 /*----------WHO WE WORK WITH SECTION----------*/
 .who__work__whith--container {
   display: -webkit-box;
@@ -207,8 +207,9 @@ body .submit__button input {
 
 /*----------WHO WE ARE SECTION----------*/
 .who__descrptn {
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding: 2rem;
+  width: 60%;
+  margin: auto;
 }
 
 .who__descrptn p {
