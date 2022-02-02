@@ -1,3 +1,6 @@
+@import"variables";
+@import"maps";
+
 * {
     padding: 0%;
     margin: 0%;
@@ -8,15 +11,20 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.5rem;
-    h1 {
+    background-color: $color-secundario;
+    }
+   
+    h2 {
         padding: 5rem;
         text-align: center;
+        color: $color-primario;
+        font-size: 2.5rem;
     }
     .button {
         text-align: center;
         padding: 2rem;
         li {
-            list-style: none;       
+            list-style: none;
         }
         a {
             color: black;
@@ -30,10 +38,10 @@ body {
             background-color: rgb(240, 240, 240);
         }
     }
-    .submit__button {
-        text-align: center;
-        font-size: 1.5rem;
-        padding: 5rem;
+.submit__button {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5rem;
         form {
             padding: 5rem;
         }
@@ -45,7 +53,11 @@ body {
             padding-right: 1.5rem;
         }
     }
-}
+.btn {
+        background-color: $color-primario;
+        border-color: $color-secundario;
+        color: $color-secundario;
+    }
 
 
 /*----------HEADER----------*/
@@ -53,6 +65,12 @@ body {
 
 
 .header {
+    .navbar-brand {
+        margin-left: 1rem;
+    }
+    #navbarNav {
+        margin-right: 1rem;
+    }
     li {
         padding-left: 1.5rem;
     }
@@ -70,10 +88,20 @@ body {
 /*----------MAIN IMAGE----------*/
 
 
-.top__img img {
-    width: 100%;
+.top__img {
+    position: relative;
+    display: flex;
+    align-items: center;
+        img {
+        width: 100%;}
 }
-
+h1 {
+    font-size: 5rem;
+    color: $color-secundario;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
 
 /*----------PRODUCT SECTION----------*/
 
@@ -127,11 +155,8 @@ body {
     p {
         padding-bottom: 2rem;
     }
-    img {
-        width: 25%;
-        border-radius: 2%;
-    }
 }  
+
 .services__descrptn--container {
     text-align: center;
     .services-text {
@@ -163,7 +188,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     padding: 3rem;
-    background-color: rgb(66, 66, 66);
+    background-color: $color-terciario;
     img {
         width: 15rem;
     }
@@ -240,8 +265,15 @@ h4 {
 
 /*----------ACCOUNT----------*/
 
-
-
+.row {
+    margin: 10rem;
+    background-color: $color-primario;
+    padding: 2rem;
+    border-radius: 2rem;
+    .form-label{
+        color: $color-secundario;
+    }
+}
 
 /*----------FOOTER----------*/
 
