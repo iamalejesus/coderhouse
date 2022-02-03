@@ -1,0 +1,10 @@
+/*MIXIN*/
+
+@mixin textDescrptnParamtrs ($aling,$padding) {
+    text-align: $aling;
+    padding: $padding;
+}
+
+.textDescrptn {
+    @include textDescrptnParamtrs (left, 2rem)
+}

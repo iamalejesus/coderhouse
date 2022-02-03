@@ -1,0 +1,20 @@
+/*MAPS*/
+
+$mapsContacto: (email:$color-secundario, whatsapp:$color-secundario);
+
+@each $contacto, $color in $mapsContacto {
+    .#{$contacto}--link {
+        color: $color;
+    }
+}
+
+
+/*MAP-GET*/
+
+$style: (
+    color: $color-primario,
+);
+
+.tittleSection {
+    color: map-get($style, color);
+}
