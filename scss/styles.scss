@@ -1,7 +1,7 @@
-@import"variables";
-@import"maps";
+@import"variables", "maps", "extend", "mixin";
+/*@import"maps";
 @import"extend";
-@import"mixin"; 
+@import"mixin";*/ 
 
 * {
     padding: 0%;
@@ -130,7 +130,7 @@ body {
     }
 }
 .product__descrptn {
-    padding: 2rem;
+    padding: 5rem;
     width: 85%;  
 }
 .tittleSection{
