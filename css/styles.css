@@ -160,6 +160,7 @@ h3 {
 }
 
 .product_descrptn--img img {
+  width: 100rem;
   max-width: 40%;
   min-width: 50%;
   border-radius: 1rem;
@@ -176,8 +177,8 @@ h3 {
 }
 
 .product__descrptn {
-  padding: 5rem;
-  width: 85%;
+  padding: 2rem 0rem 2rem 0rem;
+  width: 100%;
 }
 
 .tittleSection {
@@ -286,13 +287,8 @@ h3 {
 
 /*----------WHO WE ARE SECTION----------*/
 .who__descrptn {
-  padding: 2rem;
-  width: 85%;
-  margin: auto;
-}
-
-.who__descrptn p {
-  text-justify: inter-word;
+  padding: 2rem 0rem 2rem 0rem;
+  width: 100%;
 }
 
 .who__img {
@@ -305,6 +301,7 @@ h3 {
 }
 
 .who__img img {
+  width: 100rem;
   max-width: 40%;
   min-width: 50%;
   border-radius: 1rem;

@@ -117,6 +117,7 @@ body {
     display: flex;
     justify-content: space-around;
     img{
+        width: 100rem;
         max-width:40%;
         min-width: 50%;
         border-radius: 1rem;
@@ -130,8 +131,8 @@ body {
     }
 }
 .product__descrptn {
-    padding: 5rem;
-    width: 85%;  
+    padding: 2rem 0rem 2rem 0rem;
+    width: 100%;  
 }
 .tittleSection{
     padding-bottom: 0rem;
@@ -219,23 +220,20 @@ body {
 
 
 .who__descrptn {
-    padding: 2rem;
-    width: 85%;  
-    margin: auto;
-    p {
-        text-justify: inter-word
-    }
+    padding: 2rem 0rem 2rem 0rem;
+    width: 100%;
 }
 .who__img {
     padding: 2rem;
     display: flex;
     justify-content: space-around;
-    img {
-        max-width: 40%;
+    img{
+        width: 100rem;
+        max-width:40%;
         min-width: 50%;
         border-radius: 1rem;
         border: 1px solid;
-        border-color: $color-primario;
+        border-color: $color-primario
     }
     :hover {
         transition: 0.5s;
