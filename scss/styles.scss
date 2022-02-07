@@ -116,10 +116,7 @@ body {
     padding: 2rem;
     display: flex;
     justify-content: space-around;
-    img{
-        width: 100rem;
-        max-width:40%;
-        min-width: 50%;
+    img {
         border-radius: 1rem;
         border: 1px solid;
         border-color: $color-primario
@@ -203,7 +200,9 @@ body {
     flex-wrap: wrap;
     align-items: center;
     padding: 3rem;
-    background-color: $color-terciario;
+    margin: 2rem;
+    background-color: black;
+    border-radius: 10rem;
     img {
         width: 15rem;
     }
@@ -228,9 +227,6 @@ body {
     display: flex;
     justify-content: space-around;
     img{
-        width: 100rem;
-        max-width:40%;
-        min-width: 50%;
         border-radius: 1rem;
         border: 1px solid;
         border-color: $color-primario
@@ -269,7 +265,10 @@ body {
 h4 {
     padding: rem;
 }
-
+:root {
+    --animate-duration: 1s;
+    --animate-delay: 2s;
+    }
 
 /*----------ACCOUNT----------*/
 
