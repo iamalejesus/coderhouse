@@ -43,53 +43,22 @@
         </nav>
     </header>
     <main>
-        <form class="row g-3 needs-validation wow animate__animated animate__pulse" novalidate>
-            <div class="col-md-4 position-relative">
-              <label for="validationTooltip01" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
-            </div>
-            <div class="col-md-4 position-relative">
-              <label for="validationTooltip02" class="form-label">Apellido</label>
-              <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
-            </div>
-            <div class="col-md-4 position-relative">
-              <label for="validationTooltipUsername" class="form-label">Username</label>
-              <div class="input-group has-validation">
-                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-                <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
-                <div class="invalid-tooltip">
-                Seleccione un Username válido.
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 position-relative">
-              <label for="validationTooltip03" class="form-label">Provincia</label>
-              <input type="text" class="form-control" id="validationTooltip03" required>
-              <div class="invalid-tooltip">
-                Seleccione una provincia válida.
-              </div>
-            </div>
-            <div class="col-md-3 position-relative">
-              <label for="validationTooltip04" class="form-label">Ciudad</label>
-              <select class="form-select" id="validationTooltip04" required>
-                <option selected disabled value="">Seleccione...</option>
-                <option>...</option>
-              </select>
-              <div class="invalid-tooltip">
-                Seleccione una ciudad válida.
-              </div>
-            </div>
-            <div class="col-md-3 position-relative">
-              <label for="validationTooltip05" class="form-label">CP</label>
-              <input type="text" class="form-control" id="validationTooltip05" required>
-              <div class="invalid-tooltip">
-                Seleccione un CP válido
-              </div>
-            </div>
-            <div class="col-12">
-              <button class="btn btn-primary" type="submit">Entrar</button>
-            </div>
-          </form>
+        <form class="form">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Tu correo electrónico no será compartido con nadie.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Acepto recibir notificaciones.</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Ingresar</button>
+      </form>
     </main>
     <footer class="footer">
         <div class="footer__logo">

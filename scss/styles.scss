@@ -262,11 +262,6 @@ body {
     grid-template-rows: 100px 150px 200px;
     grid-template-columns: 500px;
 }
-/*.contact__container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}*/
 .contact__names {
     padding: 2rem;
     text-align: center;
@@ -278,14 +273,12 @@ h4 {
 
 /*----------ACCOUNT----------*/
 
-.row {
-    margin: 10rem;
-    background-color: $color-primario;
+.form {
+    margin: 2rem;
     padding: 2rem;
+    border: 2px solid;
     border-radius: 2rem;
-    .form-label{
-        color: $color-secundario;
-    }
+    border-color: $color-primario;
 }
 
 /*----------FOOTER----------*/

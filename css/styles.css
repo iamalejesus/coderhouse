@@ -348,11 +348,6 @@ h3 {
       grid-template-columns: 500px;
 }
 
-/*.contact__container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}*/
 .contact__names {
   padding: 2rem;
   text-align: center;
@@ -363,15 +358,12 @@ h4 {
 }
 
 /*----------ACCOUNT----------*/
-.row {
-  margin: 10rem;
-  background-color: #2B2B2B;
+.form {
+  margin: 2rem;
   padding: 2rem;
+  border: 2px solid;
   border-radius: 2rem;
-}
-
-.row .form-label {
-  color: #FFFDE9;
+  border-color: #2B2B2B;
 }
 
 /*----------FOOTER----------*/
